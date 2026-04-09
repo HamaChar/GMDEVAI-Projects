@@ -7,8 +7,7 @@ public class AvatarController : MonoBehaviour
     [SerializeField] GameObject mouseIndicator;
 
     Camera mainCamera;
-
-    // The PET reads this to know which way the avatar is facing.
+    
     public Vector3 LookDirection => transform.forward;
 
     void Start()
@@ -24,10 +23,9 @@ public class AvatarController : MonoBehaviour
 
     void HandleMovement()
     {
-        float h = Input.GetAxis("Horizontal"); // A / D
-        float v = Input.GetAxis("Vertical");   // W / S
-
-        // Flatten camera axes onto the ground plane so movement is always horizontal.
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+        
         Vector3 camForward = mainCamera.transform.forward;
         camForward.y = 0f;
         camForward.Normalize();
@@ -46,11 +44,10 @@ public class AvatarController : MonoBehaviour
 
         if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, groundLayer))
         {
-            // Move the circle indicator to the hit point, sitting just above the surface.
             if (mouseIndicator != null)
                 mouseIndicator.transform.position = hit.point + Vector3.up * 0.01f;
 
-            // Rotate avatar on Y axis to face the hit point.
+            // rotate y axis
             Vector3 lookDir = hit.point - transform.position;
             lookDir.y = 0f;
 
