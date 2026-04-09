@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e088129-0a93-4711-843e-6e97eab1ea3f" name="Changes" comment="" />
+    <list default="true" id="1e088129-0a93-4711-843e-6e97eab1ea3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Module 1/motion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 1/motion.cs.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="3C7UInLowijMSAkcKIFC9PL6QfQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,6 +29,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775736028422</updated>
       <workItem from="1775736028425" duration="145000" />
+      <workItem from="1775737360116" duration="612000" />
     </task>
     <servers />
   </component>
