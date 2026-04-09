@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e088129-0a93-4711-843e-6e97eab1ea3f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Module 1/motion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Module 1/motion.cs.meta" beforeDir="false" />
-    </list>
+    <list default="true" id="1e088129-0a93-4711-843e-6e97eab1ea3f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775736028422</updated>
       <workItem from="1775736028425" duration="145000" />
-      <workItem from="1775737360116" duration="612000" />
+      <workItem from="1775737360116" duration="1024000" />
     </task>
     <servers />
   </component>
