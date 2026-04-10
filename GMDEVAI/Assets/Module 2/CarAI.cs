@@ -1,57 +1,45 @@
 using UnityEngine;
-using UnityStandardAssets.Utility;
 
 public class CarAI : MonoBehaviour
 {
-    public WaypointCircuit circuit;
+    public Transform target;
 
     [Header("Movement")]
-    public float maxSpeed = 7f;
+    public float speed = 0f;
     public float rotSpeed = 3f;
-    public float accuracy = 1f;
+    public float minSpeed = 0f;
+    public float maxSpeed = 8f;
 
-    [Header("Braking")]
-    [Tooltip("Angle threshold (degrees) to the next waypoint at which the car begins braking. " +
-             "Large = cautious (brakes early), Small = daredevil (barely brakes).")]
-    public float brakeAngle = 30f;
+    [Header("Acceleration / Braking")]
+    public float acceleration = 5f;
+    public float deceleration = 5f;
 
-    [Tooltip("Speed multiplier applied when braking (0–1). Lower = harder braking.")]
-    [Range(0f, 1f)]
-    public float brakeStrength = 0.5f;
-
-    private int currentWaypointIndex = 0;
+    public float breakAngle = 30f;
 
     private void LateUpdate()
     {
-        if (circuit == null || circuit.Waypoints.Length == 0) return;
+        if (target == null) return;
 
-        Transform currentWaypoint = circuit.Waypoints[currentWaypointIndex];
+        Vector3 lookAtGoal = new Vector3(target.position.x,
+                                         this.transform.position.y,
+                                         target.position.z);
+        Vector3 direction = lookAtGoal - this.transform.position;
 
-        // Direction to waypoint, preserving Y so cars handle slopes correctly
-        Vector3 direction = currentWaypoint.position - transform.position;
+        // Rotate toward the cube
+        this.transform.rotation = Quaternion.Slerp(this.transform.rotation,
+                                                    Quaternion.LookRotation(direction),
+                                                    Time.deltaTime * rotSpeed);
 
-        // Advance to next waypoint when close enough
-        if (direction.magnitude < accuracy)
+        // Brake when the cube is already turning away from us AND we have momentum
+        if (Vector3.Angle(target.forward, this.transform.forward) > breakAngle && speed > 2f)
         {
-            currentWaypointIndex++;
-            if (currentWaypointIndex >= circuit.Waypoints.Length)
-                currentWaypointIndex = 0;
-            return;
+            speed = Mathf.Clamp(speed - (deceleration * Time.deltaTime), minSpeed, maxSpeed);
+        }
+        else
+        {
+            speed = Mathf.Clamp(speed + (acceleration * Time.deltaTime), minSpeed, maxSpeed);
         }
 
-        // Rotate toward waypoint
-        transform.rotation = Quaternion.Slerp(
-            transform.rotation,
-            Quaternion.LookRotation(direction),
-            Time.deltaTime * rotSpeed
-        );
-
-        // Brake when the angle to the waypoint exceeds brakeAngle
-        float angleToWaypoint = Vector3.Angle(transform.forward, direction);
-        float effectiveSpeed = angleToWaypoint > brakeAngle
-            ? maxSpeed * brakeStrength
-            : maxSpeed;
-
-        transform.Translate(0, 0, effectiveSpeed * Time.deltaTime);
+        this.transform.Translate(0, 0, speed * Time.deltaTime);
     }
 }
