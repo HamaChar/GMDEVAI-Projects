@@ -25,15 +25,15 @@ public class FollowPath : MonoBehaviour
         graph = wpm.graph;
         wps = wpm.waypoints;
 
-        destinations["Twin Mountains"]     = "WP011";
-        destinations["Barracks"]           = "WP003";
-        destinations["Command Center"]     = "WP004";
-        destinations["Oil Refinery Pumps"] = "WP006"; //6
+        destinations["Twin Mountains"]     = "WP003";
+        destinations["Barracks"]           = "WP015";
+        destinations["Command Center"]     = "WP009";
+        destinations["Oil Refinery Pumps"] = "WP004"; //6
         destinations["Tankers"]            = "WP007"; //7
-        destinations["Radar"]              = "WP010";
-        destinations["Command Post"]       = "WP001";
+        destinations["Radar"]              = "WP001";
+        destinations["Command Post"]       = "WP005";
         destinations["Middle of Map"]      = "WP012";
-        destinations["Helipad"]            = "WP015";
+        destinations["Helipad"]            = "WP008";
     }
 
     void LateUpdate()

@@ -6,13 +6,60 @@
   <component name="ChangeListManager">
     <list default="true" id="1e088129-0a93-4711-843e-6e97eab1ea3f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GMDEVAI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMDEVAI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Module 2/CarAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Module 2/CarAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 3/Materials/TankColour.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Module 3/Materials/TankColour.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 3/Scripts/FollowPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Module 3/Scripts/FollowPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 5/AIAgent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Module 5/AIAgent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 5/Hider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Module 5/Hider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 5/SampleScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 5/SampleScene/NavMesh-NavMesh Surface.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 5/SampleScene/NavMesh-NavMesh Surface.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 6/Starter.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 6/Starter.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/AIControlM7a.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/AIControlM7a.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Animator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Animator/Arrisa.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Animator/Arrisa.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/Arissa_DIFF_diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/Arissa_DIFF_diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/Arissa_NM_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/Arissa_NM_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/arissa@Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/arissa@Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/arissa@Jogging.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/arissa@Jogging.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/arissa@Spell Casting.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Arrisa/arissa@Spell Casting.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components/Crouch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components/Crouch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components/GroundCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components/GroundCheck.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components/Jump.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components/Jump.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components/Zoom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/Components/Zoom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/First person controller full.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/First person controller full.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/FirstPersonLook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/FirstPersonLook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/FirstPersonMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/First person controller/FirstPersonMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Materials/Grey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Module 7/pt1/Materials/Grey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Module5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Module5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Module5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Module5/NavMesh-NavMesh Surface.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Module5/NavMesh-NavMesh Surface.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Module5Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Module5Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tank Scene StarterSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tank Scene StarterSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +71,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Module 7/AIControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Module 7/NPCBaseFSM.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Module 7/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Module 7/TankAI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -50,6 +99,16 @@
   }
 }]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/m3\GMDEVAI.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Hamachi\Desktop\m1" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\Hamachi\Documents\GitHub\GMDEVAI -debugCodeOptimization" />
@@ -96,7 +155,7 @@
       <updated>1775736028422</updated>
       <workItem from="1775736028425" duration="145000" />
       <workItem from="1775737360116" duration="12768000" />
-      <workItem from="1775804853263" duration="13544000" />
+      <workItem from="1775804853263" duration="19797000" />
     </task>
     <servers />
   </component>

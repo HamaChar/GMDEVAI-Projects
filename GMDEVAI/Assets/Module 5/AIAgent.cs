@@ -90,7 +90,6 @@ public abstract class AIAgent : MonoBehaviour
 
     protected void CleverHide()
     {
-        Debug.Log("cleverly hiding");
         float distance = Mathf.Infinity;
         Vector3 chosenSpot = Vector3.zero;
         Vector3 chosenDir = Vector3.zero;

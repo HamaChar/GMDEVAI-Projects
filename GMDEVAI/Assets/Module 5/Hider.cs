@@ -6,8 +6,8 @@ public class Hider : AIAgent
     {
         if (!agent.isOnNavMesh) return;
 
-        if (TargetInRange())
-            print("in range");
+        if (TargetInRange() && CanSeeTarget())
+            CleverHide();
         else
             Wander();
     }

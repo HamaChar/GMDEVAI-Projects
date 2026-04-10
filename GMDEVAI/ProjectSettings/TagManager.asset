@@ -9,6 +9,7 @@ TagManager:
   - wp
   - AI
   - agent
+  - waypoint
   layers:
   - Default
   - TransparentFX
